@@ -22632,6 +22632,8 @@ self: super: with self; {
 
   zodbpickle = callPackage ../development/python-modules/zodbpickle { };
 
+  zonos = callPackage ../development/python-modules/zonos { };
+
   zope-cachedescriptors = callPackage ../development/python-modules/zope-cachedescriptors { };
 
   zope-component = callPackage ../development/python-modules/zope-component { };
